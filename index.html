@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | PacketPass</title>
+    <title>Packet Pass</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>  
@@ -13,13 +13,33 @@
     </script>
   </head>
   <body>
+	<h1 id="titleDisplay"> PACKET PASS </h1>
     <div class="webgl-content">
       <div id="gameContainer" style="width: 640px; height: 512px"></div>
       <div class="footer">
-        <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">PacketPass</div>
       </div>
     </div>
+	
+	<div class="about">
+		<div id="instructionsTitle"> <h2> INSTRUCTIONS </h2> </div>
+		<div id="instructions">
+			<p>
+				Use WASD to move, and left mouse button to shoot.<br>
+				The objective is to send messages from one PC to the other, by playing as the packet.<br>
+				Avoid enemies as they will reduce the time you have left to complete, or may even inject your packet with new letters!<br>
+				Defeat the firewall boss to successfully send the message. With each new message sent, the difficulty will increase.
+			</p>
+		</div>
+		
+		<div id="aboutTitle"> <h2> ABOUT </h2> </div>
+		<div id="aboutContent">
+			<p>
+				Packet Pass is a game created by <a href="https://github.com/JakeMLyons"> Jake Lyons </a> and myself as part of <a href="https://globalgamejam.org/"> Global Game Jam. </a><br>
+				The theme of the game was "Transmission", so our game is based on the transmitting of data using packets.<br>
+				We decided to go with a pixel/8-bit style for the art, and chiptune music as it's quite appropritate for the game objective.<br>
+			</p>
+		</div>
+	</div>
   </body>
 </html>
