@@ -1,6 +1,6 @@
 # PacketPass
 
-[Click here to play!](http://www.jamesstudd.com/PacketPass/)
+https://jamesstudd.github.io/PacketPass/
 
 Packet Pass is a game created by <a href="https://github.com/JakeMLyons"> Jake Lyons </a> and myself as part of <a href="https://globalgamejam.org/"> Global Game Jam. </a><br>
 The theme of the game was "Transmission", so our game is based on the transmitting of data using packets.<br>
